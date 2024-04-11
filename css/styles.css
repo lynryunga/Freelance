@@ -1,0 +1,41 @@
+:root {
+  --blanco: #EEF5FF;
+  --oscuro: #212121;
+  --primario: #176B87;
+  --secundario: #86B6F6;
+  --terceario: #B4D4FF;
+  --gris: #757575;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.titulo {
+  text-align: center;
+  font-size: 3.8rem;
+  font-family: "Caveat", cursive;
+}
+.titulo span {
+  font-size: 2rem;
+}
+.contenedor {
+  width: 120rem;
+  margin: 0 auto;
+}
+.navegacion-principal {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bg {
+  background: var(--primario);
+}
+.navegacion-principal a{
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: 700;
+}
